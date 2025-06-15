@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:6.0
+    restart: always
+    environment:
+      MONGO_INITDB_DATABASE: taskmanagerdb
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - '27017:27017'
+
+  server:
+    build: .
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/taskmanagerdb
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+
+volumes:
+  mongo-data:
