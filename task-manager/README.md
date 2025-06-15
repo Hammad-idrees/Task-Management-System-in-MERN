@@ -67,7 +67,7 @@ Before running the application, make sure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hammad-idrees/task-manager.git
+git clone (https://github.com/Hammad-idrees/Task-Management-System-in-MERN.git)
 cd task-manager
 ```
 
