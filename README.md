@@ -179,6 +179,11 @@ task-manager/
 ## Screenshots
 ![Screenshot 2025-06-15 235843](https://github.com/user-attachments/assets/a28e50f3-3f05-4c5d-bfa7-a2ef66680f03)
 
+![image](https://github.com/user-attachments/assets/8d63ddfc-ae55-4e65-8aa9-fccb9ceb0314)
+
+![image](https://github.com/user-attachments/assets/9ae76d6a-7819-4c21-bc24-e614eef497fa)
+
+
 ## Contributing
 
 1. Fork the repository
