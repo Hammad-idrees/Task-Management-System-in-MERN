@@ -176,6 +176,8 @@ task-manager/
     ├── routes/          # API routes
     └── utils/           # Utility functions
 ```
+## Screenshots
+![Screenshot 2025-06-15 235843](https://github.com/user-attachments/assets/a28e50f3-3f05-4c5d-bfa7-a2ef66680f03)
 
 ## Contributing
 
